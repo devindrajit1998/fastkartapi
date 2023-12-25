@@ -8,7 +8,7 @@
         {
           "id": 101,
           "name": "Mobiles",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 1001,
               "name": "Android"
@@ -26,7 +26,7 @@
         {
           "id": 102,
           "name": "Laptops",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 1004,
               "name": "Gaming Laptops"
@@ -44,7 +44,7 @@
         {
           "id": 103,
           "name": "Cameras",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 1007,
               "name": "DSLR"
@@ -62,7 +62,7 @@
         {
           "id": 104,
           "name": "Audio",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 1010,
               "name": "Headphones"
@@ -87,7 +87,7 @@
         {
           "id": 201,
           "name": "Men",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 2001,
               "name": "Clothing"
@@ -105,7 +105,7 @@
         {
           "id": 202,
           "name": "Women",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 2004,
               "name": "Clothing"
@@ -123,7 +123,7 @@
         {
           "id": 203,
           "name": "Kids",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 2007,
               "name": "Clothing"
@@ -141,7 +141,7 @@
         {
           "id": 204,
           "name": "Jewelry",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 2010,
               "name": "Rings"
@@ -166,7 +166,7 @@
         {
           "id": 301,
           "name": "Decoration",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 3001,
               "name": "Wall Art"
@@ -184,7 +184,7 @@
         {
           "id": 302,
           "name": "Furniture",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 3004,
               "name": "Sofas"
@@ -209,7 +209,7 @@
         {
           "id": 401,
           "name": "Fiction",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 4001,
               "name": "Mystery & Thrillers"
@@ -227,7 +227,7 @@
         {
           "id": 402,
           "name": "Non-Fiction",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 4004,
               "name": "Self-Help"
@@ -252,7 +252,7 @@
         {
           "id": 501,
           "name": "Outdoor Recreation",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 5001,
               "name": "Camping & Hiking"
@@ -270,7 +270,7 @@
         {
           "id": 502,
           "name": "Fitness",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 5004,
               "name": "Exercise Machines"
@@ -295,7 +295,7 @@
         {
           "id": 601,
           "name": "Fruits & Vegetables",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 6001,
               "name": "Fresh Fruits"
@@ -313,7 +313,7 @@
         {
           "id": 602,
           "name": "Beverages",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 6004,
               "name": "Tea & Coffee"
@@ -331,7 +331,7 @@
         {
           "id": 603,
           "name": "Dairy & Eggs",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 6007,
               "name": "Milk"
@@ -356,7 +356,7 @@
         {
           "id": 701,
           "name": "Vitamins & Supplements",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 7001,
               "name": "Multivitamins"
@@ -374,7 +374,7 @@
         {
           "id": 702,
           "name": "Fitness Equipment",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 7004,
               "name": "Treadmills"
@@ -399,7 +399,7 @@
         {
           "id": 801,
           "name": "Luggage",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 8001,
               "name": "Suitcases"
@@ -417,7 +417,7 @@
         {
           "id": 802,
           "name": "Travel Accessories",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 8004,
               "name": "Travel Pillows"
@@ -442,7 +442,7 @@
         {
           "id": 901,
           "name": "Dog Supplies",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 9001,
               "name": "Dog Food"
@@ -460,7 +460,7 @@
         {
           "id": 902,
           "name": "Cat Supplies",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 9004,
               "name": "Cat Food"
@@ -485,7 +485,7 @@
         {
           "id": 1001,
           "name": "Art Supplies",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 10001,
               "name": "Paints & Brushes"
@@ -503,7 +503,7 @@
         {
           "id": 1002,
           "name": "DIY Kits",
-          "subcategories": [
+          "subSubcategories": [
             {
               "id": 10004,
               "name": "Woodworking Kits"
@@ -2096,7 +2096,48 @@
       ],
       "saleAvailable": true,
       "featured": true
-    }
+    },
+    {
+      "category": "Books",
+      "subcategory": "Fiction",
+      "subSubcategory": "Mystery & Thrillers",
+      "name": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "description": "A gripping psychological thriller that keeps you guessing till the end.",
+      "specifications": {
+          "genre": "Psychological Thriller",
+          "format": "Hardcover",
+          "language": "English",
+          "pages": 336
+      },
+      "price": 25.99,
+      "offerPrice": 19.99,
+      "stock": 50,
+      "thumbnail": "https://rukminim2.flixcart.com/image/850/1000/k5zn9u80/book/6/1/3/the-silent-patient-original-imafgsy68ph6yggr.jpeg?q=20",
+      "images": [
+          "https://example.com/book-image1.jpg",
+          "https://example.com/book-image2.jpg"
+      ],
+      "ratings": {
+          "average": 4.5,
+          "total": 35
+      },
+      "reviews": [
+          {
+              "user": "ThrillerReader123",
+              "rating": 5,
+              "comment": "Couldn't put it down! Great suspense."
+          },
+          {
+              "user": "BookLover22",
+              "rating": 4,
+              "comment": "Enjoyed the unexpected twists."
+          }
+      ],
+      "saleAvailable": true,
+      "featured": true,
+      "id": 160004
+  }
   ],
   "bannerdata": [
     {
